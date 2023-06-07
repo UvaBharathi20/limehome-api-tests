@@ -14,3 +14,6 @@ and follow the https://www.digitalocean.com/community/tutorials/install-maven-ma
 ### Build and run Sanity tests
 
 * mvn -Psanity clean test
+
+### Report
+Reports will be generated in the target folder. its the surfire reports which can be viewed after tests are run.
