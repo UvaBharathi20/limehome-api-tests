@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite">
+    <parameter name="BaseURI" value="https://api.limehome.com/"/>
+    <test name="Sanity test">
+        <classes>
+            <class name="suites.users.ResponseTest">
+                <methods>
+                    <include name="validatePropertiesResponse"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
